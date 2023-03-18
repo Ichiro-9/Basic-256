@@ -1,0 +1,26 @@
+cls 
+fastgraphics
+
+w = 1000
+h = 1000
+graphsize w,h
+
+ball_x = 0
+ball_y = 0
+
+for i = 1 to 999
+	
+	ball_x = ball_x+1
+	ball_y = ball_y + 1
+	
+	color cyan 
+	rect 0,0,w,h
+	
+	color red
+	circle ball_x , ball_y , 20
+	
+	refresh
+	pause 0.008
+	
+next i 
+	

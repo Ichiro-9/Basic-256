@@ -1,0 +1,14 @@
+# program to print the simple interest and the amount
+
+print "welcome to champs19 calculator,"
+print""
+print"Enter"
+input"Loan amount: ",principal
+input"Payback time(months)",pbt
+input"Interest rate (per month):",rate
+i = (principal * pbt * rate)/100 
+print""
+a = principal + i
+print "So,"
+print "Total interest= " + i 
+print "Total amount= " + a
